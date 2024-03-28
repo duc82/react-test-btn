@@ -11,7 +11,7 @@ export default defineConfig({
     emptyOutDir: true,
     minify: true,
     lib: {
-      entry: path.resolve(__dirname, "./src/index.ts"),
+      entry: path.resolve(__dirname, "./src/lib/index.ts"),
       name: "ButtonTest",
       fileName: (format) => `index.${format}.js`,
     },
@@ -29,7 +29,7 @@ export default defineConfig({
   plugins: [
     react(),
     libInjectCss(),
-    dts({ insertTypesEntry: true, rollupTypes: true, include: ["dist"] }),
+    dts({ insertTypesEntry: true, include: ["./src/lib"] }),
     splitVendorChunkPlugin(),
   ],
 });
