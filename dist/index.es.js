@@ -1,14 +1,15 @@
+import './index.css';
 import Oe from "react";
 var H = { exports: {} }, j = {};
 /**
- * @license React
- * react-jsx-runtime.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+* @license React
+* react-jsx-runtime.production.min.js
+*
+* Copyright (c) Facebook, Inc. and its affiliates.
+*
+* This source code is licensed under the MIT license found in the
+* LICENSE file in the root directory of this source tree.
+*/
 var Re;
 function ir() {
   if (Re)
@@ -29,14 +30,14 @@ function ir() {
 }
 var k = {};
 /**
- * @license React
- * react-jsx-runtime.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+* @license React
+* react-jsx-runtime.development.js
+*
+* Copyright (c) Facebook, Inc. and its affiliates.
+*
+* This source code is licensed under the MIT license found in the
+* LICENSE file in the root directory of this source tree.
+*/
 var Te;
 function ur() {
   return Te || (Te = 1, process.env.NODE_ENV !== "production" && function() {
@@ -628,8 +629,8 @@ process.env.NODE_ENV === "production" ? H.exports = ir() : H.exports = ur();
 var sr = H.exports;
 const fr = "_test_1hvnq_1", lr = {
   test: fr
-}, vr = () => /* @__PURE__ */ sr.jsx("button", { type: "button", className: lr.test, children: "Test" });
+}, cr = () => /* @__PURE__ */ sr.jsx("button", { type: "button", className: lr.test, children: "Test" }), dr = cr;
 export {
-  vr as default
+  dr as default
 };
 //# sourceMappingURL=index.es.js.map
